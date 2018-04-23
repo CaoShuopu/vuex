@@ -4,7 +4,7 @@
 
 ``` js
 computed: {
-  doneTodosCount () {
+  doneTodosCount() {
     return this.$store.state.todos.filter(todo => todo.done).length
   }
 }
